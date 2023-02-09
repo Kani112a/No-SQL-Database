@@ -1,0 +1,95 @@
+127.0.0.1:6379> PING
+PONG
+127.0.0.1:6379> SADD CUST_NAME ram sam sree abi
+(integer) 4
+127.0.0.1:6379> SMEMBERS CUST_NAME
+1) "sree"
+2) "sam"
+3) "abi"
+4) "ram"
+127.0.0.1:6379> SADD PLACE gandhi nerhu bharathi tagore
+(integer) 4
+127.0.0.1:6379> SMEMBERS PLACE
+1) "tagore"
+2) "bharathi"
+3) "nerhu"
+4) "gandhi"
+127.0.0.1:6379> SADD CITY salem vellore namakkal erode
+(integer) 4
+127.0.0.1:6379> SMEMBERS CITY
+1) "erode"
+2) "salem"
+3) "vellore"
+4) "namakkal"
+127.0.0.1:6379> SADD PHONENO 9842948439 6381131343 8608602549 9384479129
+(integer) 4
+127.0.0.1:6379> SMEMBERS PHONENO
+1) "6381131343"
+2) "8608602549"
+3) "9384479129"
+4) "9842948439"
+127.0.0.1:6379> SADD STAFFNAME karthi kathir saran karan
+(integer) 4
+127.0.0.1:6379> SMEMBERS STAFFNAME
+1) "karan"
+2) "saran"
+3) "kathir"
+4) "karthi"
+127.0.0.1:6379> SADD BRANCH salem namakkal erode vellore
+(integer) 4
+127.0.0.1:6379> SMEMBERS BRANCH
+1) "erode"
+2) "salem"
+3) "vellore"
+4) "namakkal"
+127.0.0.1:6379> SADD STAFFAGE 21 23 31 20
+(integer) 4
+127.0.0.1:6379> SMEMBERS STAFFAGE
+1) "20"
+2) "21"
+3) "23"
+4) "31"
+127.0.0.1:6379> SADD STAFFSALARY 10000 15000 12000 17000
+(integer) 4
+127.0.0.1:6379> SMEMBERS STAFFSALARY
+1) "10000"
+2) "12000"
+3) "15000"
+4) "17000"
+127.0.0.1:6379> SADD MENU soup manchow  tomato  hotnsour lemoncorriander greensalad russiansalad regularsalad dosa masala  plain  poondu cheese jeera  kashmiririce    friedrice   vegpulao
+(integer) 17
+127.0.0.1:6379> SMEMBERS MENU
+ 1) "hotnsour"
+ 2) "poondu"
+ 3) "greensalad"
+ 4) "regularsalad"
+ 5) "kashmiririce"
+ 6) "plain"
+ 7) "cheese"
+ 8) "soup"
+ 9) "dosa"
+10) "manchow"
+11) "russiansalad"
+12) "jeera"
+13) "masala"
+14) "lemoncorriander"
+15) "tomato"
+16) "friedrice"
+17) "vegpulao"
+127.0.0.1:6379> SADD RS  55 65 60 63 65 58 59 50 65 74 66 99 98 90 99 110 99
+(integer) 13
+127.0.0.1:6379> SMEMBERS RS
+ 1) "50"
+ 2) "55"
+ 3) "58"
+ 4) "59"
+ 5) "60"
+ 6) "63"
+ 7) "65"
+ 8) "66"
+ 9) "74"
+10) "90"
+11) "98"
+12) "99"
+13) "110"
+127.0.0.1:6379>
